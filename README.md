@@ -35,6 +35,10 @@ then navigate to http://localhost:3000/
 npm test
 ```
 
+## Live Demo
+
+See the live demo at http://reactonatimer.herokuapp.com/
+
 ## Built With
 
 * [ReactJs](https://facebook.github.io/react/) - JavaScript Library used for building user interfaces.
