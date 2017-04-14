@@ -30,6 +30,10 @@ node server
 
 then navigate to http://localhost:3000/
 
+### Testing
+```
+npm test
+```
 
 ## Built With
 
