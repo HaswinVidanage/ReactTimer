@@ -21,7 +21,7 @@ var About = (props) => {
           <a href="https://facebook.github.io/react/" target="_new">React</a> - JavaScript framework used.
         </li>
         <li>
-          <a href="https://github.com/mjackson/expect" target="_new">mjackson</a> - For assertions.
+          <a href="https://github.com/mjackson/expect" target="_new">expect</a> - For assertions.
         </li>
         <li>
           <a href="http://mochajs.org/" target="_new">Mocha</a> - JavaScript test framework.
