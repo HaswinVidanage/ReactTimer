@@ -11,9 +11,9 @@ var Controls = React.createClass({
       this.props.onStatusChange(newStatus);
     }
   },
-  componentWillReceiveProps : function(nextProps){
-    console.log('componentWillRecieveProps' , nextProps.countdownStatus);
-  },
+  // componentWillReceiveProps : function(nextProps){
+  //   console.log('componentWillRecieveProps' , nextProps.countdownStatus);
+  // },
   render : function(){
     var {countdownStatus} = this.props;
     var renderStartButton = () => {
@@ -21,7 +21,8 @@ var Controls = React.createClass({
         return <button className="secondary button" onClick={this.onStatusChange('paused')}>Pause</button>
       }else if (countdownStatus === 'paused'){
         return <button className="primary button" onClick={this.onStatusChange('started')}>Start</button>
-      }
+      }else if (countdownStatus === 'stopped')
+        return <button className="primary button" onClick={this.onStatusChange('started')}>Start</button>
 
     };
     return (
